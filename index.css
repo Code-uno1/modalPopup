@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    height: 200vh; /* to show background blocking */
+    margin: 0;
+  }
+  
+  /* Hides elements */
+  .hidden {
+    display: none;
+  }
+  
+  /* Overlay covers entire screen */
+  #overlay {
+    position: fixed;
+    inset: 0; /* top:0; right:0; bottom:0; left:0 */
+    background: rgba(0, 0, 0, 0.5);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    cursor: pointer; /* overlay click hint */
+  }
+  
+  /* Modal box styling */
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: auto; /* override overlay cursor */
+  }
+  
