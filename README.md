@@ -1,0 +1,1 @@
+bro this this is a modal project, like how it works, but it has a bug that i can't see and it's not working out man, fuck it.
